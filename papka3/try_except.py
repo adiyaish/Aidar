@@ -175,30 +175,20 @@ Exception
 'Отрицательное число, должно выходить исключение TypeError'
 '0, должно выходить исключение ZeroDivisionError'
 
-try:
-    num = int(input('Введите число: '))
-    if num == 0:
-        raise ZeroDivisionError
-    elif num > 0:
-        raise ValueError
-    elif num < 0:
-        raise TypeError
-except ValueError:
-    print('Положительное')
-except TypeError:
-    print('Отрицательно')
-except ZeroDivisionError:
-    print('0')
-
-    
-
-
-
-
-
-
-
-
+# try:
+#     num = int(input('Введите число: '))
+#     if num == 0:
+#         raise ZeroDivisionError
+#     elif num > 0:
+#         raise ValueError
+#     elif num < 0:
+#         raise TypeError
+# except ValueError:
+#     print('Положительное')
+# except TypeError:
+#     print('Отрицательно')
+# except ZeroDivisionError:
+#     print('0')
 
 
 
